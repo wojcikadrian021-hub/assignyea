@@ -1,0 +1,14 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2907
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 A stack is the right choice for undo and redo because it uses Last In, First Out. This means the most recent action is the first one removed. That works well for undo because usually the last thing you did is the first thing you want to undo. The redo stack works the same way because the most recent action that was undone should be the first one brought back.\
+A queue is better for the help desk because it uses First In, First Out. This means the first customer who enters the line is the first customer who gets helped. That makes sense because customers should normally be helped in the order they arrived.\
+My stack and queue are different from Python lists because I built them myself using Nodes. Each Node stores a value and points to the next Node. The stack keeps track of the top item, while the queue keeps track of the front and rear.\
+Python lists already have built-in methods that can do similar things, but building these structures myself helped me understand how stacks and queues actually work behind the scenes.\
+}
